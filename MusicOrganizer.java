@@ -68,4 +68,17 @@ public class MusicOrganizer
         }
         
     }
+    
+    public boolean validIndex (int index)
+    {
+        if(!(index >= 0 && index < files.size()))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        
+    }
 }
